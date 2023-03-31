@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: #16164a;
+    font-family: 'Montserrat', sans-serif;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* h1 {
+    font-size: 130px;
+    font-weight: 200;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #03a9f4, #ff05d5);
+    position: relative;
+    padding: 30px 70px;
+    text-anchor: middle;
+    min-width: 800px;
+    padding-top: 0px;
+} */
+
+.container {
+    border: 1px solid transparent;
+    box-shadow: 0 0 7px 2px #03a9f4, 0 0 5px 4px #ff05d5;
+    border-radius: 5px;
+    height: 15rem;
+    margin-block-end: 15px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.city {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 5px 10px;
+}
+
+#clock, #clock2, #clock3 {
+    font-size: 100px;
+    font-weight: 200;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #03a9f4, #ff05d5);
+    position: relative;
+    padding: 10px 70px 20px;
+    text-anchor: middle;
+    min-width: 650px;
+}
+
+#summer-time {
+    color: white;
+    position: absolute;
+    top: 8px;
+    left: 15px;
+    font-size: 20px;
+}
